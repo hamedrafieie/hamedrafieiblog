@@ -1,3 +1,8 @@
+@font-face{
+    font-family: IRANSans;
+    src: url("iran sans/iransansweb_medium.woff"); format(woff)
+
+}
 body{
     font-family: "Open Sans";
     direction: rtl;
