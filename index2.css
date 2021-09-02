@@ -1,10 +1,12 @@
 @font-face{
     font-family: IRANSans;
-    src: url("iran sans/iransansweb_medium.woff"); format(woff)
-
+    src: url("iran sans/iransansweb_medium.woff"); format(woff);
+    src: url("iran sans/iransansweb.woff"); format(woff);
+    font-weight: normal;
+    font-style: normal;
 }
 body{
-    font-family: "Open Sans";
+    font-family: IRANSans;
     direction: rtl;
 }
 .main {
@@ -16,9 +18,8 @@ body{
 }
 .iconpro {
     background-color: #cc0066;
-    width: 30px;
-    height: 20px;
-    padding: 1px 15px 7px 7px;
+    width: 52px;
+    height: 36px;
     border-radius: 3px;
     float: left;
 }
