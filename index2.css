@@ -10,17 +10,17 @@ body{
     direction: rtl;
 }
 .main {
-    width: 800px;
+    width: 50rem;
     margin: auto;
-    padding: 10px;
+    padding: 0.625rem;
     background-color: white;
     text-align: right;
 }
 .iconpro {
     background-color: #cc0066;
-    width: 52px;
-    height: 36px;
-    border-radius: 3px;
+    width: 3.25rem;
+    height: 2.25rem;
+    border-radius: 0.188rem;
     float: left;
 }
 ul {
@@ -28,34 +28,33 @@ ul {
     margin: 0;
     padding: 0;
 }
-
 li {
     display: inline;
-    margin-right: 13px;
+    margin-right: 0.813rem;
 }
 img {
-    width: 800px;
+    width: 50rem;
 }
 .main h2 {
     color: grey;
-    font-size: 14px;
-    margin-top: 30px;
+    font-size: 0.875rem;
+    margin-top: 1.875rem;
 }
 div h3{
     font-weight: bold;
-    font-size: 14px;
+    font-size: 0.875rem;
     color: #616161;
     text-align: right;
 
 }
 .main p {
     color: grey;
-    font-size: 14px;
+    font-size: 0.875rem;
     text-align: right;
 }
 .icon1 {
     text-align: left;
-    height: 60px;
+    height: 3.75rem;
     background-color: midnightblue;
     border: 2px;
     margin: 50px 50px 80px 80px;
@@ -63,19 +62,19 @@ div h3{
 
 
 .footer {
-    width: 800px;
-    height: 200px;
+    width: 50rem;
+    height: 12.5rem;
     background-color: #e8e8e8;
-    margin-top: 50px;
-    border-radius: 3px;
+    margin-top: 3.125rem;
+    border-radius:0.188rem;
 }
 .avatar {
-    width: 100px;
-    height: 100px;
+    width: 6.25rem;
+    height: 6.25rem;
     border-radius: 100%;
 }
 .row {
-    padding: 40px;
+    padding: 2.5rem;
     overflow: hidden;
     background-color: #eaeaea;
 }
