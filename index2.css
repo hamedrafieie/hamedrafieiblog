@@ -5,6 +5,11 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: IRANSansweb;
+    src: url("iran sans/iransansweb_bold.woff"); format(woff);
+    font-weight: bold;
+}
 body{
     font-family: IRANSansweb, sans-serif;
     direction: rtl;
@@ -36,22 +41,27 @@ img {
     width: 100%;
     vertical-align: middle;
 }
+
 h2 {
     color: grey;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     margin-top: 1.875rem;
 }
 h3{
     font-weight: bold;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     color: #616161;
     text-align: right;
 }
 
 p{
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     text-align: right;
 }
+span{
+    font-size: 1.5rem;
+}
+
 .main p {
     color: grey;
 }
@@ -100,13 +110,27 @@ p{
     }
 }*/
 @media screen and (max-width:768px) {
-    p,h2,h3 {
+    p, h2, h3,span {
         font-size: 1.2rem;
     }
 
+    .main {
+        width: 100%
+    }
+}
 @media screen and (max-width: 375px) {
-    p,h2,h3 {
+    p,h2,h3,span{
          font-size: 0.875rem;;
      }
-    }
+    .main{
+    width: 100%}
+}
+.social{
+    text-align: center;
+    color: white;
+    margin:auto ;
+    display: inline-block;
+    width:19.5%;
+    height:30px;
+}
 
